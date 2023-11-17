@@ -1,0 +1,238 @@
+/* Font-family */
+/* body{
+    font-family: cursive, serif;
+}
+h1{
+    font-family: Verdana;
+}
+
+.credits 
+{   
+     font-family: "Courier New", Courier,      monospace;
+}  */
+
+/* Font size in pexels */
+/* p{
+    font-size: 160px;
+} */
+
+/* Percentages */
+/* p{
+    font-size: 200%;
+} */
+
+/* default values */
+/* p{
+    font-size: xx-small;
+} */
+/* em */
+/* p{
+    font-size: 3em;
+} */
+
+/* font-face */
+/* @font-face {
+    font-family: test;
+    src: url('./fonts/EduTASBeginner-Bold.ttf');
+}
+h1{
+    font-family: test;
+} */
+
+/* Font-weight */
+/* p{
+    font-weight: bold;
+} */
+
+/* font-style */
+/* h1{
+    font-style: oblique;
+} */
+
+/* using id selector comparing 3 styles */
+/* #Normal{
+    font-style: normal;
+}
+#Italic{
+    font-style: italic;
+}
+#oblique{
+    font-style: oblique;
+} */
+
+/* text-transformation */
+/* hello guys <=lowercase */
+
+/* h1{
+    text-transform: lowercase;
+} */
+/* HELLO GUYS <=UPERCASE */
+/* h1{
+    text-transform: uppercase;
+} */
+/* Hello Guys <=capitalization */
+
+/* h1{
+    text-transform: capitalize;
+} */
+
+/* text decoration */
+/* #none{
+    text-decoration: none;
+}
+#underline{
+    text-decoration: underline;
+}
+#overline{
+    text-decoration: overline;
+}
+#line-through{
+    text-decoration: line-through;
+} */
+
+/* Line-height */
+
+/* p{
+    line-height: 50px;
+} */
+/* Letter and word spacing */
+/* h1{
+    letter-spacing: 5px;
+} */
+/* h1{
+    word-spacing: 7px;
+} */
+
+/* Text Align */
+/* center */
+/* h1{
+    text-align: center;
+} */
+/* left-align */
+/* h1{
+    text-align: left;
+} */
+/* right-align */
+/* h1{
+    text-align: right;
+} */
+
+/* justify */
+/* p{
+    text-align: justify;
+} */
+
+/* vertical-align */
+/* middle */
+/* img{
+    vertical-align: middle;
+} */
+
+/* top-align */
+/* img{
+    vertical-align: top;
+} */
+
+/* Text indent */
+/* p{
+    text-indent: 50px;
+} */
+
+/* TEXT shadow */
+/* p{
+    background-color: #eeeeee;
+    columns: #666666;
+    text-shadow: 1px 1px 1px black;
+} */
+
+/* First letter or first line */
+/* p:first-letter{
+    color: red;
+    font-weight: bolder;
+} */
+
+/* p::first-line{
+    color: blue;
+} */
+
+/* visited link */
+/* a:link{
+    color: green;
+}
+
+a:visited{
+    color: red;
+} */
+
+/* Responding To User */
+/* hover */
+/* .btn:hover{
+    background-color: blueviolet;
+} */
+/* :active */
+/* .btn:active{
+    background-color: brown;
+} */
+/* focus */
+/* .btn:focus{
+    background-color: blue;
+} */
+
+/* focus */
+ /* .textbox:focus{
+    background-color: blue;
+}  */
+
+/* Attributes */
+
+/* Exsistance */
+/* h1[name]{
+    color: red;
+} */
+
+/* Equality */
+/* h1[test="hi!"]{
+    color: red;
+} */
+
+/* Space */
+/* h1[test~=World]{
+    color: pink;
+} */
+
+/* Prefix */
+/* h1[name^=b]{
+    color: blue;
+} */
+
+/* Substring */
+/* h1[test*=el]{
+    color: rebeccapurple;
+} */
+
+/* Sufix */
+/* h1[test$=d]{
+    color: aqua;
+} */
+
+/* Book Example */
+body {    padding: 20px;}  
+ h1, h2, h3, a {    font-weight: normal;    color: #0088dd;    margin: 0px;} 
+   h1 {    font-family: Georgia, Times, serif;   
+     font-size: 250%;   
+      text-shadow: 2px 2px 3px #666666; 
+         padding-bottom: 10px;}  
+          h2 {    font-family: "Gill Sans", Arial, sans-serif;  
+              font-size: 90%;  
+                text-transform: uppercase;  
+                  letter-spacing: 0.2em;}   
+                  h3 {    font-size: 150%;} 
+                    p {    font-family: Arial, Verdana, sans-serif;   
+                         line-height: 1.4em;    color: #665544;} 
+                           p.intro:first-line {  
+                              font-weight: bold;} 
+                                .credits {    font-style: italic;     text-align: right;}  
+                                 a {    text-decoration: none;}
+                                    a:hover {  
+                                          text--decoration: underline;
+                                        } 
